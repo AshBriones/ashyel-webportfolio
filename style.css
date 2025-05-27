@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fadcd9;
+}
+
+.navbar {
+  background-color: #f0d0c5 !important; 
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+
+.btn-outline-success{
+    color: #a45c40 !important;
+    border-color: #a45c40 !important;
+}
+
+.carousel-item {
+  height: 100vh;
+  position: relative;
+}
+.carousel-item video, .carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption h1{
+    font-weight: 1000;
+}
+
+
+.btn-primary{
+    background-color: #F9F1F0 !important;
+    color: #F79489;
+    font-weight: 600;
+}
+
+.about-me-section {
+  min-height: 100vh;
+  background-color: #fadcd9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-me-text {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+
+.row{
+  background-color: #F9F1F0;
+}
+
+.head{
+  font-weight: 700;
+  text-align: center;
+}
+
+
+.bg-body-tertiary {
+  background-color: #fadcd9;
+}
+
+#featured-3 {
+  background-color: #fadcd9;
+}
+
+#personal{
+  background-color: #F9F1F0 !important;;
+}
+
+.personal-section {
+  min-height: 100vh;
+  background-color: #fadcd9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.personal-text {
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ff796b;
+  border-color:#ff796b;
+}
+
